@@ -1,2 +1,2 @@
-# Agendamento_salas
- Programa de agendamento de salas
+# Emprestimo equipamentos
+ Programa de emprestimo de equipamentos
