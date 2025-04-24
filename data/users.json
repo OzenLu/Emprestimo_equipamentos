@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "nome": "Admin",
+    "email": "admin@zeborreiatec.com",
+    "senha": "123",
+    "tipo": "admin"
+  },
+  {
+    "id": 2,
+    "nome": "João Colaborador",
+    "email": "joao@zeborreiatec.com",
+    "senha": "456",
+    "tipo": "usuario"
+  },
+  {
+    "nome": "teste",
+    "email": "teste@zeborreiatec.com",
+    "senha": "123",
+    "tipo": "usuario"
+  },
+  {
+    "nome": "teste123",
+    "email": "teste123@zeborreiatec.com",
+    "senha": "456",
+    "tipo": "admin"
+  }
+]

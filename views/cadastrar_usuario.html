@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Usuário</title>
+</head>
+<body>
+  <h2>Cadastrar Novo Usuário</h2>
+  <form action="/admin/usuarios/cadastrar" method="POST">
+    <input type="text" name="nome" placeholder="Nome" required><br>
+    <input type="email" name="email" placeholder="E-mail" required><br>
+    <input type="password" name="senha" placeholder="Senha" required><br>
+    <select name="tipo" required>
+      <option value="usuario">Usuário comum</option>
+      <option value="admin">Administrador</option>
+    </select><br>
+    <button type="submit">Cadastrar</button>
+  </form>
+  <br>
+  <a href="/admin">Voltar</a>
+</body>
+</html>
